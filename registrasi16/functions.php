@@ -1,7 +1,7 @@
 <?php
 // koneksi ke database
 // note : jika tidak error maka dikosongi namun kalau error isi dengan "root"
-$conn = mysqli_connect("localhost","root","","phpdasar");
+$conn = mysqli_connect("localhost","root","","php dasar");
 
 function query($query){
     global $conn;
